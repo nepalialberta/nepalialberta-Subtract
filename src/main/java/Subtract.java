@@ -15,6 +15,14 @@ public class Subtract {
      * @return a minus b
      */
     public double sub(double a, double b){
-        return 0;
+
+        double sub = a-b;
+        System.out.println("The subtract value of a and b is: " + sub);
+        return sub;
+    }
+
+    public static void main(String[] args){
+        Subtract subVal = new Subtract();
+        subVal.sub(2.0, 1.1);
     }
 }
